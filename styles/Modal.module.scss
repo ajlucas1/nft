@@ -1,0 +1,46 @@
+.modal{
+    background-color: rgba(0,0,0,0.8);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .modalbox{
+        width: 400px;
+        height: 400px;
+        background: rgba(61, 61, 61, 0.726);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        input{
+            width: 60%;
+            margin-bottom: 20px;
+        }
+        p{
+            line-height: normal;
+            color: rgb(134, 134, 134);
+        }
+        button{
+            width: 60%;
+            margin-right: 40px;
+            background: rgba(92, 149, 255);
+        }
+        h3{
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        .x{
+            width: 40px;
+            background-color: rgb(255, 86, 86);
+            position: fixed;
+            top: 20%;
+            left: 60%;
+        }
+    }
+}

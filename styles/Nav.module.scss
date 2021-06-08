@@ -1,0 +1,24 @@
+.navcontainer{
+    height: 8vh;
+    background-color: rgb(5, 5, 5);
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    
+    border-bottom: 1px solid rgb(66, 66, 66);
+   color: rgb(255, 254, 254);
+  ul{
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 50px;
+      color: rgba(92, 149, 255);
+      cursor: pointer;
+      font-size: 25px;
+  }
+  
+  
+}

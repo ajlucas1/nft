@@ -1,0 +1,28 @@
+.footer{
+    border-top: solid 1px grey;
+    background-color: black;
+    color: grey;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+   
+    .footerbox{
+        display: flex;
+        margin-left: 50px;
+    }
+    .footersection{
+        font-weight: 300;
+        margin-right: 100px;
+        h3{
+            font-size: 14px;
+            
+        }
+        h4{
+            color: white;
+            font-size: 12px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+    }
+}

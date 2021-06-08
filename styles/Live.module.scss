@@ -1,0 +1,35 @@
+.live{
+    background-color:black;
+    height: auto;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: solid 1px rgb(49, 49, 49);
+   
+    h1{
+        color: white;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    .liveitems{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        @media (max-width: 950px){
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-row-gap: 20px;
+        }
+        @media (max-width: 650px){
+            grid-template-columns: 1fr 1fr;
+        }
+     
+        
+    }
+    
+}
